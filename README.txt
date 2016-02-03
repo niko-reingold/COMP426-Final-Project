@@ -6,6 +6,6 @@
 
 \f0\fs24 \cf0 This was a final project for COMP 426: Advanced www Programming (Fall, 2015).\
 \
-I worked with one other person whose github is cockcb.\
+I worked with one other person whose github is cookcb.\
 \
 My contribution was the php used for creating and logging into an account.}
