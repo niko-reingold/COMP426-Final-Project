@@ -27,8 +27,8 @@
 	{
 		
 		$connect = new mysqli("classroom.cs.unc.edu", "cookcb", "krackatoa4", "cookcbdb");
-		
-		$result = $connect->query("SELECT count(*) FROM DNDLogin WHERE Username = '".$u."'");
+		$query = $connect->prepare("SELECT count(*) FROM DNDLogin WHERE Username = '?'"))
+		$result = $query->execute($u);
 		$row = $result->fetch_row();
 		$exists = $row[0];
 		
